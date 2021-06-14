@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
-model=load_model("test2_model.h5")
+model=load_model("test_model.h5")
 
 results={0:'mask',1:'without mask'}
 GR_dict={0:(0,255,0),1:(0,0,255)}
