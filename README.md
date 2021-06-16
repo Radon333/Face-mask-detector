@@ -23,4 +23,3 @@ You can also use an external webcam for detection.
 This project can be implemented on a larger scale at public places to detect people not wearing masks. This will although require more dataset and training for extremely accurate predictions.
 Various other features like predicting if social distancing is followed or not can also  be added.
 
-![Start_Page](https://thumbs.dreamstime.com/b/no-entry-face-mask-wear-icon-vector-illustration-yes-sign-man-wearing-not-190678899.jpg)
