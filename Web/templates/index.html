@@ -1,0 +1,47 @@
+<!Doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Face Mask detector</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+
+<style>
+    body{
+        background-color:#090c10;
+    }
+</style>
+<section id="home">
+    <div class="container">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
+                <h1 class="heading-black text-capitalize">Face Mask detector</h1>
+                <div class="img-container">
+                <img class="main2-img"src={{ url_for('static', filename='img/Picture3.png') }}>
+                <img class="main1-img" src={{ url_for('static', filename='img/Picture2.png') }}>
+                </div>
+                <p class="lead py-3">A software using CNN to detect if a person is wearing a mask or not</p>
+                <button onclick="window.location.href='/face';" class="btn btn-primary d-inline-flex flex-row align-items-center">
+                    Get started now
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

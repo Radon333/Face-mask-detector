@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Face-Mask detector</title>
+    <style>
+    body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            background-color:#090c10;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+  h1{
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: 3rem;
+  }
+  .demo-title{
+    color:white;
+    text-align:center;
+  }
+  .main-container{
+    text-align:center;
+    justify-content: center;
+  }
+    </style>
+  </head>
+  <body>
+    <h1 class="demo-title">Face the camera for the detection</h1>
+    <br/>
+    <div class="main-container">
+      <img id="bg" src="{{ url_for('video_feed') }}">
+    </div>
+    
+  </body>
+</html>
