@@ -13,9 +13,9 @@ Jupyter Notebook
 
 1.Import the dataset folder.
 
-2.Load the Model.ipynb file and run it.
+2.Load the modelEDA&Training.ipynb file and run it.
 
-3.Run the Final.ipynb file.
+3.Run the deployment.ipynb file.
 
 ## Conclusion
 
